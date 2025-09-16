@@ -1,0 +1,65 @@
+Fruits:
+  - navn: Apple
+    pris: 0.99
+    vareID: 0
+  - navn: Banana
+    pris: 0.59
+    vareID: 1
+  - navn: Date
+    pris: 1.29
+    vareID: 3
+  - navn: Fig
+    pris: 2.99
+    vareID: 5
+  - navn: Grape
+    pris: 2.49
+    vareID: 6
+  - navn: Honeydew
+    pris: 3.99
+    vareID: 7
+  - navn: Kiwi
+    pris: 0.89
+    vareID: 8
+  - navn: Lemon
+    pris: 0.69
+    vareID: 9
+
+Vegetables:
+  - navn: Carrot
+    pris: 0.79
+    vareID: 2
+  - navn: Eggplant
+    pris: 1.49
+    vareID: 4
+
+Electronics:
+  - navn: Macbook
+    pris: 999.99
+    vareID: 10
+  - navn: Acer
+    pris: 799.99
+    vareID: 11
+  - navn: Dell
+    pris: 699.99
+    vareID: 12
+  - navn: Asus
+    pris: 899.99
+    vareID: 13
+  - navn: Lenovo
+    pris: 749.99
+    vareID: 14
+  - navn: HP
+    pris: 649.99
+    vareID: 15
+  - navn: Samsung
+    pris: 599.99
+    vareID: 16
+  - navn: Sony
+    pris: 549.99
+    vareID: 17
+  - navn: LG
+    pris: 499.99
+    vareID: 18
+  - navn: HTC
+    pris: 399.99
+    vareID: 19
