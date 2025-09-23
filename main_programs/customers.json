@@ -1,0 +1,13 @@
+{
+    "customers": [
+        {
+            "balance": 1000.0,
+            "basket": [],
+            "id": 1,
+            "name": "Mathias",
+            "password": "0807",
+            "userCoupon": 34.0,
+            "username": "Lucidle"
+        }
+    ]
+}

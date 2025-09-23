@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-register" class="centered-card">
+    <h2>Welcome to Mini Shop</h2>
+    <div class="button-group">
+      <button id="loginBtn" class="btn-primary">Login</button>
+      <button id="registerBtn" class="btn-secondary">Register</button>
+    </div>
+  </div>
+
+  <div id="shop" class="hidden">
+    <header>
+      <h2 id="welcome"></h2>
+      <div class="balance" id="balance"></div>
+    </header>
+
+    <main>
+      <section id="products-section">
+        <h3>Products</h3>
+        <div id="products" class="grid-container">
+          <div class="product-card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/30/02/11/apple-2695569_960_720.jpg" alt="Apple">
+            <strong>Apple</strong><br>
+            5.0 DKK<br>
+            <button onclick="addToBasket(1)">Add to Basket</button>
+          </div>
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1561938952-7d1d8b5c8b3a" alt="Banana">
+            <strong>Banana</strong><br>
+            6.0 DKK<br>
+            <button onclick="addToBasket(2)">Add to Basket</button>
+          </div>
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4" alt="Carrot">
+            <strong>Carrot</strong><br>
+            2.0 DKK<br>
+            <button onclick="addToBasket(3)">Add to Basket</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="basket-section">
+        <h3>Basket</h3>
+        <div id="basket" class="basket"></div>
+        <button id="payBtn" class="btn-success">Pay</button>
+      </section>
+
+      <section id="user-section">
+        <h3>User Info</h3>
+        <div id="userInfo"></div>
+      </section>
+    </main>
+
+    <footer>
+      <button id="logoutBtn" class="btn-warning">Logout</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
